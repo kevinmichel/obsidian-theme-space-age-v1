@@ -8,8 +8,213 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+
+	/* CONSTANTS */
+	--florescent-purple: #c74df7;
+    --pink-red: hsl(335deg 66% 67%);
+    	
+    /* ----------- COLOR VARS ------- */
+    --km-c-purple-bright: var(--florescent-purple);
+	--km-c-purple: #b265df;
+	--km-c-indigo: #8775eb;
+	--km-c-blue: #1f75ffe8;
+	--km-c-fushcia-rose: #e66c94cf;
+	--km-c-aqua: #17abab;
+
+	/* DEFAULT - COLOR MAPPINGS */
+/* Color mappings ------------------------ */
+    
+	/* Accent HSL values */
+    /* --accent-h: 254;
+    --accent-s: 80%;
+    --accent-l: 68%; */
+    
+	/* Backgrounds */
+    /* --background-primary: var(--color-base-00);
+    --background-primary-alt: var(--color-base-10);
+    --background-secondary: var(--color-base-20);
+    --background-modifier-hover: rgba(var(--mono-rgb-100), 0.075);
+    --background-modifier-active-hover: hsla(var(--interactive-accent-hsl), 0.15);
+    --background-modifier-border: var(--color-base-30);
+    --background-modifier-border-hover: var(--color-base-35);
+    --background-modifier-border-focus: var(--color-base-40);
+    --background-modifier-error-rgb: var(--color-red-rgb);
+    --background-modifier-error: var(--color-red);
+    --background-modifier-error-hover: var(--color-red);
+    --background-modifier-success-rgb: var(--color-green-rgb);
+    --background-modifier-success: var(--color-green);
+    --background-modifier-message: rgba(0, 0, 0, 0.9); */
+    
+	/* Inputs */
+    /* --background-modifier-form-field: var(--color-base-00); */
+
+    /* --link-color: var(--text-accent);
+    --link-color-hover: var(--text-accent-hover); */
+    
+	/* Text */
+    /* --text-normal: var(--color-base-100);
+    --text-muted: var(--color-base-70);
+    --text-faint: var(--color-base-50);
+    --text-on-accent: white;
+    --text-error: var(--color-red);
+    --text-success: var(--color-green);
+    --text-selection: hsla(var(--color-accent-hsl), 0.2);
+    --text-accent: var(--color-accent);
+    --text-accent-hover: var(--color-accent-2);
+    --interactive-normal: var(--color-base-00);
+    --interactive-hover: var(--color-base-10);
+    --interactive-accent-hsl: var(--color-accent-hsl);
+    --interactive-accent: var(--color-accent-1);
+    --interactive-accent-hover: var(--color-accent-2); */
+
 }
 
+
+
+/* /// Theme Light Vars START! -------------------------------------------------- */
+
+.theme-light {
+	/* ----------- HSL THEME VARS ------- */
+	--km-hue: 360;
+	--km-sat: 68%;
+	--km-hs: var(--km-hue), var(--km-sat);
+	--km-primary: hsl(var(--km-hs), 95%);
+
+	--km-bg-accent: hsl(var(--km-hs), 88%);
+	--km-accent-bright: var(--km-primary);
+	--km-bg-accent-darker: var(--kev-bg-accent);
+
+	--kev-titlebar: hsl(var(--km-hs), 80%);
+	--kev-statusbar: var(--kev-titlebar);
+
+    /* --km-fancy-line-color: #fafafa; */
+    --km-fancy-line-color: var(--km-cb-10);
+    /* --fancy-cursor-color: var(--text-normal); */
+    --km-fancy-cursor-color: var(--km-c-aqua);
+
+    /* OVERRIDE VALUES */
+    --km-cb-00: hsl(var(--km-hs),100%);
+    --km-cb-05: hsl(var(--km-hs),99%);
+    --km-cb-10: hsl(var(--km-hs),98%);
+    --km-cb-20: hsl(var(--km-hs),96%);
+    --km-cb-25: hsl(var(--km-hs),89%);
+    --km-cb-30: hsl(var(--km-hs),88%);
+    --km-cb-35: hsl(var(--km-hs),83%);
+    --km-cb-40: hsl(var(--km-hs),74%);
+    --km-cb-50: hsl(var(--km-hs),67%);
+    --km-cb-60: hsl(var(--km-hs),44%);
+    --km-cb-70: hsl(var(--km-hs),35%);
+    --km-cb-100: hsl(var(--km-hs),13%);
+
+    --background-primary: var(--color-base-00);
+    --background-primary-alt: var(--color-base-10);
+    --background-secondary: var(--color-base-20);
+    --code-background: var(--background-primary-alt);
+
+	/* ----------- THEME BACKGROUNDS ------- */
+	/* --background-primary: hsl(13deg, 68%, 95%); */
+
+    /* ORIGINAL VALUES */
+	/* --color-base-00: #ffffff;
+    --color-base-05: #fcfcfc;
+    --color-base-10: #fafafa;
+    --color-base-20: #f6f6f6;
+    --color-base-25: #e3e3e3;
+    --color-base-30: #e0e0e0;
+    --color-base-35: #d4d4d4;
+    --color-base-40: #bdbdbd;
+    --color-base-50: #ababab;
+    --color-base-60: #707070;
+    --color-base-70: #5a5a5a;
+    --color-base-100: #222222; */
+
+	--color-base-00: var(--km-cb-00);
+    --color-base-05: var(--km-cb-05);
+    /* --color-base-10: var(--km-cb-10); */
+    --color-base-20: var(--km-cb-20);
+    --color-base-25: var(--km-cb-25);
+    --color-base-30: var(--km-cb-30);
+    --color-base-35: var(--km-cb-35);
+    /* --color-base-40: var(--km-cb-40);
+    --color-base-50: var(--km-cb-50);
+    --color-base-60: var(--km-cb-60);
+    --color-base-70: var(--km-cb-70);
+    --color-base-100: var(--km-cb-100); */
+
+
+
+	/* ----------- HEADER COLORS ------- */
+	--h1-color: var(--km-c-purple-bright);
+	--h2-color: var(--km-c-blue);
+	--h3-color: var(--km-c-aqua);
+	--h4-color: var(--km-c-indigo);
+	--h5-color: var(--km-c-fushcia-rose);
+	--h6-color: var(--km-c-purple);
+
+}
+
+/* /// Theme Dark Vars START! --------------------------------------------------- */
+
+.theme-dark {
+	--color-base-00: #1e1e1e;
+    --color-base-10: #242424;
+    --color-base-20: #262626;
+    --color-base-25: #2a2a2a;
+    --color-base-30: #363636;
+    --color-base-35: #3F3F3F;
+    --color-base-40: #555;
+    --color-base-50: #666;
+    --color-base-60: #999;
+    --color-base-70: #bababa;
+    --color-base-100: #dadada; 
+
+    --background-primary: var(--color-base-00);
+    --background-primary-alt: var(--color-base-10);
+    --background-secondary: var(--color-base-20);
+    --code-background: var(--background-primary-alt);
+
+    /* ----------- HEADER COLORS ------- */
+
+    /* UI colors (pink from Cybertron) */
+    --accent-cyber-bright: hsl(314deg 57% 63%);
+    /*(pink Cybertron) */
+    --accent-cyber-base: hsl(266deg 91% 73% / 50%);
+    /* (purple) */
+    --accent-cyber-muted: hsl(266deg 91% 73% / 12%);
+
+    /*titles (dark theme from Cybertron) */
+    /* --h1-color: rgba(252, 246, 1, 0.75); */
+    --h1-color: var(--accent-cyber-bright);
+    --h2-color: #b9adff;
+    --h3-color: #52c1da;
+    --h4-color: #cf6f6f;
+    /*6fcf7f*/
+    --h5-color: #67c073;
+    /*d8d8d8*/
+    --h6-color: #b4b4b4;
+
+    --km-fancy-line-color: var(--accent-cyber-muted);
+    --km-fancy-cursor-color: var(--accent-cyber-bright);
+
+}
+
+/* .CodeMirror-cursor,
+.cm-s-obsidian .cm-cursor,
+.cm-s-obsidian .cm-dropCursor {
+    border-left: 2px solid var(--fancy-cursor-color);
+} */
+
+.CodeMirror-cursor { 
+    border-left-width: 0.5em;
+    opacity: 0.75;
+}
+
+.cm-active.cm-line {
+    background: var(--km-fancy-line-color);
+}
+
+
+/* --------- Default CSS --------- */
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
 }
