@@ -285,10 +285,51 @@ body {
     --background-secondary: var(--color-base-20);
     --code-background: var(--background-primary-alt);
 
+    --km-ui-accent-color: #ddaa03;
+
+    /* Violet Evening -- Obsidian Dark Theme */
+	--background-primary: #2b2751;
+	--background-primary-alt: #1e1d3d;
+	--background-secondary: #201e42;
+	--background-secondary-alt: #2d2355;
+	--background-modifier-border: #121025;
+	--background-modifier-form-field: #2a2458;
+	--background-modifier-form-field-highlighted: #2d285e;
+	--background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+	--background-modifier-success: #79f269;
+	--background-modifier-error: #c80000bf;
+	--background-modifier-error-rgb: 61, 0, 0;
+	--background-modifier-error-hover: #ff0000;
+	--background-modifier-cover: #171532;
+	--text-accent: #bd6af5;
+    --text-accent: var(--h6-color);
+	/* --text-accent-hover: #fdc307; */
+	--text-accent-hover: var(--km-ui-accent-color);
+    --text-normal: #fff;
+	--text-muted: #c5b5ff;
+	--text-muted-rgb: 153, 153, 153;
+	--text-faint: #c5b5ff;
+	--text-error: #ff3737bf;
+	--text-error-hover: #990000;
+	--text-highlight-bg: #662ca5;
+	--text-highlight-bg-active: rgba(255, 128, 0, 0.4);
+	--text-selection: #8f2bd2;
+	--text-on-accent: #202020;
+	--interactive-normal: #2a2a2a;
+	--interactive-hover: #303030;
+	--interactive-accent: #ddaa03;
+	--interactive-accent-rgb: 72, 54, 153;
+	--interactive-accent-hover: #ae3afc;
+	--interactive-success: #79f269;
+	--scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+	--scrollbar-bg: rgba(255, 255, 255, 0.05);
+	--scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+	--highlight-mix-blend-mode: lighten;
+
     /* ----------- HEADER COLORS ------- */
 
     /* UI colors (pink from Cybertron) */
-    --accent-cyber-bright: hsl(314deg 57% 63%);
+    --accent-cyber-bright: hsl(314deg 62% 62%);
     /*(pink Cybertron) */
     --accent-cyber-base: hsl(266deg 91% 73% / 50%);
     /* (purple) */
@@ -296,26 +337,28 @@ body {
 
     /*titles (dark theme from Cybertron) */
     /* --h1-color: rgba(252, 246, 1, 0.75); */
-    --h1-color: var(--accent-cyber-bright);
-    --h2-color: #b9adff;
+    --h1-color: #b9adff;
+    /* --h1-color: var(--accent-cyber-bright); */
+    --h2-color: var(--accent-cyber-bright);
+    /* --h2-color: #b9adff; */
     --h3-color: #52c1da;
-    --h4-color: #cf6f6f;
+    --h4-color: #ef7979;
     /*6fcf7f*/
-    --h5-color: #67c073;
+    --h5-color: #42d79e;
     /*d8d8d8*/
-    --h6-color: #b4b4b4;
+    --h6-color: #d275de;
 
     --km-fancy-line-color: var(--accent-cyber-muted);
     --km-fancy-cursor-color: var(--accent-cyber-bright);
 
     --color-cyan-gradient-1:
-    linear-gradient(180deg,
-    #82b7ba, #77aeb3, #6da5ac, #629ca5, 
-    #5a919c, #558590, #4f7984, #496d79); /* 300 -> 900 */
---color-cyan-gradient-2:
-    linear-gradient(180deg, 
-    #6de0fd, #5dd6f5, #56d3f2, #4fcfef, 
-    #48cceb, #40c8e8, #37c5e5, #2dc1e2);
+        linear-gradient(180deg,
+        #82b7ba, #77aeb3, #6da5ac, #629ca5, 
+        #5a919c, #558590, #4f7984, #496d79); /* 300 -> 900 */
+    --color-cyan-gradient-2:
+        linear-gradient(180deg, 
+        #6de0fd, #5dd6f5, #56d3f2, #4fcfef, 
+        #48cceb, #40c8e8, #37c5e5, #2dc1e2);
 
 }
 
