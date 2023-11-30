@@ -329,6 +329,7 @@ body {
     --background-primary-alt: var(--color-base-10);
     --background-secondary: var(--color-base-20);
     --code-background: var(--background-primary-alt);
+    --hr-color: var(--color-base-70);
 
     --km-ui-accent-color: #ddaa03;
 
